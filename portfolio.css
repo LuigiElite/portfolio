@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Georgia', serif;
+	align-items: center;
+}
+
+/* Style for the navigation bar */
+nav {
+  background-color: blue; /* Background color of the nav bar */
+  padding: 20px 20px; /* Padding around the nav bar */
+}
+
+/* Container for the nav bar */
+.nav-container {
+  display: flex;
+  justify-content: space-between; /* Space between logo and navigation links */
+  align-items: center; /* Vertically center the content */
+}
+
+/* Logo on the left side */
+.nav-container .logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px; /* Font size for your name */
+  font-weight: bold;
+}
+
+/* Style for the navigation links */
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Arrange nav items in a row */
+}
+
+.nav-links li {
+  margin: 0 15px; /* Space between links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff; /* Button background color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for the links */
+.nav-links a:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Container to hold the image and text */
+.container {
+  display: flex;
+  justify-content: flex-start; /* Align the content to the left */
+  align-items: center; /* Vertically center the items */
+  padding: 20px; /* Padding around the container */
+  width: 100%; /* Ensure the container takes the full width */
+}
+
+/* Style for the image container */
+.image-container {
+  margin-left: 20px; /* Adds padding to the left of the image */
+}
+
+.image-container img {
+  width: 100%; /* Make image responsive */
+  max-width: 300px; /* Set max width to prevent the image from becoming too large */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any unwanted spaces below the image */
+}
+
+/* Style for the text container */
+.text-container {
+  flex: 1; /* Take up remaining space */
+  text-align: center; /* Align text to the center */
+  padding-left: 40px; /* Adds space between the text and image */
+}
+
+/* Content section (below the navbar) */
+.contact-container {
+    padding-top: 60px; /* Make space for the fixed navbar */
+    text-align: center; /* Horizontally center text */
+}
+
+.contact-container{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	margin-top: -150px;
+}
+
+/* Style for the image container */
+.gameimage-container {
+  margin-left: 20px; /* Adds padding to the left of the image */
+  margin-right: 40px; /* Adds padding to the left of the image */
+}
+
+.gameimage-container img {
+  width: 500px;
+  height: 400px;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+}
